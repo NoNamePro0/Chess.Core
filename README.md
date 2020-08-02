@@ -18,11 +18,17 @@ _Chess.Core is a chess library for .NET, written in C# and a fork of [thomas-dan
 
 - Draw on insufficient mating material
 
-### NuGet
+### Packages
 
-Chess.Core is currently not published on NuGet yet. We want to compile it for **.NET Core 3.1**. 
+##### ChessDotCore
+[NuGet](https://www.nuget.org/packages/ChessDotCore/)
 
-Check [Chess.NET](https://www.nuget.org/packages/ChessDotCore/) out, it's published on NuGet with **.NET Standard 1.3**.
+[GitHub Packages](https://github.com/NoNamePro0/Chess.Core/packages/339848)
+
+##### ChessDotCore.Variants
+[NuGet](https://www.nuget.org/packages/ChessDotCore.Variants/)
+
+[GitHub Packages](https://github.com/NoNamePro0/Chess.Core/packages/339856)
 
 ### Different from Fork
 
