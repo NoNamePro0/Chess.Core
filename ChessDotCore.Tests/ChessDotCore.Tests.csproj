@@ -6,6 +6,8 @@
     <AssemblyOriginatorKeyFile>ChessDotCoreTestsKey.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <IsTestProject>true</IsTestProject>
+    <Authors>No Name Pro</Authors>
+    <RepositoryUrl>https://github.com/NoNamePro0/Chess.Core</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

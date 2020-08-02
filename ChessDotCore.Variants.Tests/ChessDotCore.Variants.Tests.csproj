@@ -5,6 +5,8 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>ChessDotCoreVariantTestsKey.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RepositoryUrl>https://github.com/NoNamePro0/Chess.Core</RepositoryUrl>
+    <PackageTags>chess</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

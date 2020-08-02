@@ -5,6 +5,20 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>ChessDotCoreKey.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Authors>No Name Pro</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/NoNamePro0/Chess.Core</RepositoryUrl>
+    <PackageTags>chess</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/NoNamePro0/Chess.Core</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
