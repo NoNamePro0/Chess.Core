@@ -1,4 +1,4 @@
-﻿using ChessDotNet; // the namespace of Chess.NET
+﻿using ChessDotCore; // the namespace of Chess.Core
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,12 +51,12 @@ namespace Samples
             // Here it returns all valid moves for black, but you can also find all valid moves *from a certain position* by passing a Position instance as argument.
             Console.WriteLine("How many valid moves does black have? {0}", validMoves.Count());
 
-            // It might happen that you don't really care about all valid moves, but just want to know if there are valid moves. Chess.NET also has a method for that:
+            // It might happen that you don't really care about all valid moves, but just want to know if there are valid moves. Chess.Core also has a method for that:
             bool hasValidMoves = game.HasAnyValidMoves(Player.Black);
             // Again, you can also pass a Position instance here.
             Console.WriteLine("Black has any valid moves: {0}", hasValidMoves);
 
-            // Congratulations! You have learned about the most important methods of Chess.NET. Enjoy using the library :)
+            // Congratulations! You have learned about the most important methods of Chess.Core. Enjoy using the library :)
             Console.ReadKey();
         }
     }
